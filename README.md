@@ -7,6 +7,10 @@ See requirements.org (plain-text) for a description of the project.
 
 Make a shared state Websockets drawing program
 
+Collaboration
+=============
+Tamara Bain, Mark Galloway
+
 Prereqs
 =======
 
@@ -17,7 +21,7 @@ pip install ws4py
 Contributors / Licensing
 ========================
 
-Generally everything is LICENSE'D under the Apache 2 license by Abram Hindle.
+Generally everything is LICENSE'D under the Apache 2 license by Abram Hindle, Mark Galloway, Tamara Bain.
 
 freetests.py is LICENSE'D under a BSD-like license:
 
