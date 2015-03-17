@@ -146,7 +146,6 @@ def subscribe_socket(ws):
 
     try:
         while True:
-            pass
             # block here
             msg = client.get()
             # Got a message !
