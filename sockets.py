@@ -115,13 +115,8 @@ def read_ws(ws, client=None):
 
             if (msg is not None):
                 packet = json.loads(msg)
-
-                # Update the entity
-                for entity in packet:
-                    # print(entity)
-                    for key in packet[entity]:
-                        myWorld.update(entity, key, packet[entity][key])
-
+                for entity, data in packet.iteritems():
+                    myWorld.set(entity, data)
             else:
                 break
     except:
